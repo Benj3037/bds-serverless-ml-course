@@ -12,7 +12,7 @@
 # First, you need to install the hopsworks library.
 
 # %%
-#!pip install -U hopsworks --quiet
+!pip install -U hopsworks --quiet
 
 # %% [markdown]
 # ## <span style="color:#ff5f27;"> 💽 Loading the Data </span>
