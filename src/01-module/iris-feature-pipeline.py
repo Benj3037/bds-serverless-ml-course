@@ -95,7 +95,11 @@ fs = project.get_feature_store()
 # The *feature group* will create its online schema using the schema of the Pandas DataFame.
 
 # %%
+<<<<<<< HEAD
 iris_fg = fs.get_or_create_feature_group(name="iris_test_benjamin",
+=======
+iris_fg = fs.get_or_create_feature_group(name="iris_test_class",
+>>>>>>> d7e6fb20036c933a6d2292aaade580d94b0d2f94
                                   version=1,
                                   primary_key=["sepal_length","sepal_width","petal_length","petal_width"],
                                   description="Iris flower dataset"
