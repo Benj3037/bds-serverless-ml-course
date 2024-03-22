@@ -12,7 +12,7 @@
 
 # %%
 #!pip install -U hopsworks --quiet
-!pip install -U faker --quiet
+#!pip install -U faker --quiet
 
 # %%
 import pandas as pd
